@@ -63,6 +63,9 @@ public class FilterAuth implements Filter {
 				e1.printStackTrace();
 			}
 			e.printStackTrace();
+			RequestDispatcher redirecionar = request.getRequestDispatcher("erro.jsp");
+			request.setAttribute("msg", e.getMessage());
+			redirecionar.forward(request, response);
 		}
 
 	}
