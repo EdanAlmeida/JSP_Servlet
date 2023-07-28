@@ -35,7 +35,7 @@ public class ServletLogin extends HttpServlet {
 		String url = request.getParameter("url");
 
 		try {
-			if (login != "" && !login.isEmpty() && senha != "" && !senha.isEmpty()) {
+			if (login != null && senha != null) {
 				ModelLogin modelLogin = new ModelLogin();
 				modelLogin.setLogin(login);
 				modelLogin.setSenha(senha);
@@ -44,7 +44,7 @@ public class ServletLogin extends HttpServlet {
 					request.getSession().setAttribute("usuario", modelLogin.getLogin());
 
 					if (url == null || url.equals("null")) {
-						url = "main.jsp";
+						url = "main/main.jsp";
 					}
 
 					RequestDispatcher redirecionar = request.getRequestDispatcher(url);
