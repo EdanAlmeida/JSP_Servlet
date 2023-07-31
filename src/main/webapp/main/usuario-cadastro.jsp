@@ -32,16 +32,44 @@
                                 <div class="page-wrapper">
                                     <!-- Page-body start -->
                                     <div class="page-body">
-                                        <h1>Cadastro de usuário</h1>
-                                        <form action="">
-                                        	<div  class="form-group row">
-                                        		<label class="col-sm-2 col-form-label">Simple Input</label>
-                                        		<div class="col-sm-10">
-                                        			<input type="text" class="form-control">
-                                        		</div>
-                                        	</div>
-                                        </form>
-                                        
+                                        <h3>Cadastro de usuário</h3>
+                                        <hr><br>
+                                        <div class="row">
+											<div class="col-sm-12">
+        										<!-- Basic Form Inputs card start -->
+                								<div class="card">
+                        							<div class="card-header">
+                                						<h5>Cadastro de Tcholas</h5>
+                                					</div>
+                              						<div class="card-block">
+                                						<h4 class="sub-title">Informe os dados abaixo</h4>
+                                						<form action="">
+                                							<div  class="form-group row">
+                                        						<label class="col-sm-1 col-form-label">Nome:</label>
+                                        						<div class="col-sm-4">
+                                        							<input type="text" class="form-control"
+                                        							placeholder="Ricardão">
+                                        						</div>
+                                        					</div>
+                                        					<div  class="form-group row">
+                                        						<label class="col-sm-1 col-form-label">Email:</label>
+                                        						<div class="col-sm-4">
+                                        							<input type="text" class="form-control"
+                                        							placeholder="ricardao@email.com">
+                                        						</div>
+                                        					</div>
+                                        					<div  class="form-group row">
+                                        						<label class="col-sm-1 col-form-label">Nome da Vó:</label>
+                                        						<div class="col-sm-4">
+                                        							<input type="text" class="form-control"
+                                        							placeholder="Lirde">
+                                        						</div>
+                                        					</div>
+                                						</form>
+                                					</div>
+                                				</div>
+                                			</div>
+                                        </div>
                                     </div>
                                     <!-- Page-body end -->
                                 </div>
